@@ -1,53 +1,185 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="si">
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
     <title>Home</title>
-    <link rel="stylesheet" href="css/style.css">   
-</head>
-<body>
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="lib/jquery-3.7.1.min.js"></script>
+  </head>
+  <body>
     <header>
-        <div class="container">
-            <nav>
-                <ul>
-                    <li class="current"><a href="index.php">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
-            </nav>
-        </div>
+        <nav>
+          <ul>
+            <li class="current"><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
     </header>
 
     <section id="blog_posts">
-        <div class="container">
-            <article>
-                <img src="img/1.jpg" alt="Blog Post One">
-                <h2>Blog Post One</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.</p>
-                <a href="#" class="btn">Read More</a>
-            </article>
-            <article>
-                <img src="img/2.jpg" alt="Blog Post Two">
-                <h2>Blog Post Two</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.</p>
-                <a href="#" class="btn">Read More</a>
-            </article>
-            <article>
-                <img src="img/3.jpg" alt="Blog Post Three">
-                <h2>Blog Post Three</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.</p>
-                <a href="#" class="btn">Read More</a>
-            </article>
-        </div>
+      <div class="container">
+        <article data-postId="6543f96f9b78904c3e0057a0">
+          <img
+            class="blog-cover-img"
+            src="https://cdn.hashnode.com/res/hashnode/image/upload/v1698953532228/8fffa008-aaba-4199-b116-3c47f6d15747.png"
+            alt="🎓 GitHub for students benefits (must know if you are a student)"
+          />
+          <h2>
+            🎓 GitHub for students benefits (must know if you are a student)
+          </h2>
+          <p>
+            I have said many times that computer science is a huge field in
+            which everyone can find themselves. Being a computer science student
+            has its advantages and benefits, and one such advantage is what
+            GitHub offers with its GitHub for Education program a...
+          </p>
+          <a
+            href="https://blog.thepatik.com/github-for-students-benefits-must-know-if-you-are-a-student"
+            class="btn-read-more"
+            >Read More</a
+          >
+        </article>
+
+        <article data-postId="6536adccd67b5eba3d2bc04c">
+          <img
+            class="blog-cover-img"
+            src="https://cdn.hashnode.com/res/hashnode/image/upload/v1698082061421/59f08748-7e3d-4f9b-b836-b523402a961f.png"
+            alt="What is an open graph? You must know this feature in web development."
+          />
+          <h2>
+            What is an open graph? You must know this feature in web
+            development.
+          </h2>
+          <p>
+            Open Graph is an Internet protocol created by Facebook to
+            standardize the display of metadata on social networks.\nWhat
+            advantages does it bring?\nOpen Graph brings advantages when
+            displaying a website on social networks. Open Graph makes our posts
+            mor...
+          </p>
+          <a
+            href="https://blog.thepatik.com/what-is-an-open-graph-you-must-know-this-feature-in-web-development"
+            class="btn-read-more"
+            >Read More</a
+          >
+        </article>
+
+        <article data-postId="65199ba1bb49f1d7f2ca54ff">
+          <img
+            class="blog-cover-img"
+            src="https://cdn.hashnode.com/res/hashnode/image/upload/v1696176624405/02187641-7a4f-4153-a2c7-69ea6880f433.png"
+            alt="What is Web OTP, and which benefits do it provide to users?"
+          />
+          <h2>What is Web OTP, and which benefits do it provide to users?</h2>
+          <p>
+            More and more online services are introducing new ways to confirm
+            login to their services. Logging in with an OTP confirmation token
+            is becoming a very common practice. But such authorization methods
+            have their disadvantages such as bad UX and what i...
+          </p>
+          <a
+            href="https://blog.thepatik.com/what-is-web-otp-and-which-benefits-do-it-provide-to-users"
+            class="btn-read-more"
+            >Read More</a
+          >
+        </article>
+
+        <article data-postId="64ac4a4c06efc29a2173f464">
+          <img
+            class="blog-cover-img"
+            src="https://cdn.hashnode.com/res/hashnode/image/upload/v1689012633163/f896dfc6-984b-4d8f-9e0e-a0e4073d8c9b.png"
+            alt="The importance of application testing🤖"
+          />
+          <h2>The importance of application testing🤖</h2>
+          <p>
+            Back again with a new post👋. This time I went a little deeper into
+            what software testing means and what types of testing exist. Already
+            during my internship as a student, I encountered automatic testing
+            of web applications.\nThis time I present the a...
+          </p>
+          <a
+            href="https://blog.thepatik.com/the-importance-of-application-testing"
+            class="btn-read-more"
+            >Read More</a
+          >
+        </article>
+
+        <article data-postId="644a55c2b12eae8c29563ef0">
+          <img
+            class="blog-cover-img"
+            src="https://cdn.hashnode.com/res/hashnode/image/upload/v1682593145782/3f7705ec-2679-4c1c-a52d-b8d3fdeaa78d.png"
+            alt="Open-source software: what makes it so attractive?"
+          />
+          <h2>Open-source software: what makes it so attractive?</h2>
+          <p>
+            You may already be familiar with the term \"open source\" if you
+            have been involved in programming for some time. Open-source
+            software has gained popularity for many reasons, some of which I
+            will attempt to explain below.\n\nIntroduction\nTo start with, l...
+          </p>
+          <a
+            href="https://blog.thepatik.com/open-source-software-what-makes-it-so-attractive"
+            class="btn-read-more"
+            >Read More</a
+          >
+        </article>
+
+        <article data-postId="63e921b14436b980dab2d9ee">
+          <img
+            class="blog-cover-img"
+            src="https://cdn.hashnode.com/res/hashnode/image/upload/v1676222841277/df84716a-b632-47de-8954-ee6e3ccc2730.png"
+            alt="Let's talk about something - cyber bullying"
+          />
+          <h2>Let's talk about something - cyber bullying</h2>
+          <p>
+            Today, almost every individual has at least 5 different social
+            networks.\nSocial networks can be a handy thing if we use them in an
+            appropriate way and with good intentions. Increasingly, however,
+            social networks are being used to harass and damage an...
+          </p>
+          <a
+            href="https://blog.thepatik.com/lets-talk-about-something-cyber-bullying"
+            class="btn-read-more"
+            >Read More</a
+          >
+        </article>
+
+        <article data-postId="63aa8a0ab1011ed9ec6d6c32">
+          <img
+            class="blog-cover-img"
+            src="https://cdn.hashnode.com/res/hashnode/image/upload/v1672080031346/7f5aeecc-5959-4630-bd10-475a599124a0.png"
+            alt="A year full of success and new knowledge—Dev Retro 2022"
+          />
+          <h2>A year full of success and new knowledge—Dev Retro 2022</h2>
+          <p>
+            The year is nearly over and now is the ideal time to contemplate and
+            reflect on the successes we have achieved and the lessons we have
+            learned.\nThis year has been a journey of discoveries and
+            revelations as we navigated the ever-evolving world of com...
+          </p>
+          <a
+            href="https://blog.thepatik.com/a-year-full-of-success-and-new-knowledgedev-retro-2022"
+            class="btn-read-more"
+            >Read More</a
+          >
+        </article>
+      </div>
     </section>
 
     <footer>
-        <div class="container">
-            <p>Copywrite &copy; <script>document.write(new Date().getFullYear());</script> All Rights Reserved. Patrick Košir</p>
-        </div>
+      <div class="container">
+        <p>
+          Copywrite &copy;
+          <script>
+            document.write(new Date().getFullYear());
+          </script>
+          All Rights Reserved. Patrick Košir
+        </p>
+      </div>
     </footer>
-</body>
+  </body>
+  <script>
+    $(document).ready(function () {});
+  </script>
 </html>
-
-
-    

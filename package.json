@@ -1,0 +1,24 @@
+{
+  "name": "kids-website",
+  "version": "1.0.0",
+  "description": "Spletna stran izdelana za namene predmeta KIDS ",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,css,md,json,html}\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/patik123/kids_website.git"
+  },
+  "author": "Patrick Košir",
+  "license": "AGPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/patik123/kids_website/issues"
+  },
+  "devDependencies": {
+    "prettier": "^3.1.0"
+  }
+}
