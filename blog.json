@@ -361,6 +361,11 @@
         "website": "https://www.thepatik.com",
         "stackoverflow": ""
       },
+      "bio": {
+        "text": "A programmer from Slovenia who likes to share his knowledge with everyone. I want to go out in nature in my free time because I try to create beautiful photos📸. Big lover of the Scandinavian way of life called hygge and lagom.\n",
+        "markdown": "A programmer from Slovenia who likes to share his knowledge with everyone. I want to go out in nature in my free time because I try to create beautiful photos📸. Big lover of the Scandinavian way of life called hygge and lagom.",
+        "html": "<p>A programmer from Slovenia who likes to share his knowledge with everyone. I want to go out in nature in my free time because I try to create beautiful photos📸. Big lover of the Scandinavian way of life called hygge and lagom.</p>\n"
+      },
       "profilePicture": "https://cdn.hashnode.com/res/hashnode/image/upload/v1687196190842/9r_Qq7eNQ.png",
       "id": "608d4aa0a3716542f363f0e9"
     }
